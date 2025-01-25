@@ -2,6 +2,7 @@
 title: R package networksem
 layout: home
 nav_order: 2
+has_children: true
 ---
 
 # Manual for the R package networksem
