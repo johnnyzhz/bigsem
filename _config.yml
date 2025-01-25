@@ -11,7 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 theme: just-the-docs
 url: https://bigsem.org
 favicon_ico: "/assets/images/favicon.ico"
-repository: johnnyzhz/johnnyzhz.github.io # for github-metadata
+repository: johnnyzhz/bigsem # for github-metadata
 math: mathjax
 
 permalink: pretty
