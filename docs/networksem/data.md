@@ -1,9 +1,8 @@
 ---
-title: R package networksem
+title: Example data
 layout: home
-has_children: true
 nav_order: 3
-parent: networksem
+parent: R package networksem
 ---
 # Example Data Sets
 We will use several datasets to illustrate the use of our software.
