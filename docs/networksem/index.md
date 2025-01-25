@@ -22,10 +22,10 @@ Because the network statistics are node based, the dimension of the resulting ne
 In this approach, each subject assumes a position in a Euclidean space. The distance of two subjects in the latent space is assumed to be related to how likely they are connected in the network. The idea of latent space modeling is similar to that of factor analysis
 with a latent factor space and factor scores. Let $\mathbf{z}_{i}$ be a vector of latent positions of subject $i$ in the latent space. For subjects $i$ and $j$, the Euclidean distance between them is:
 
-\[
+$$
 d_{ij}(\mathbf{z}_i,\mathbf{z}_{j})=\sqrt{(\mathbf{z}_{i}-\mathbf{z}_{j})^{t}(\mathbf{z}_{i}-{\mathbf{z}_{j})}=\sqrt{\sum_{d=1}^{D}({z}_{i,d}-{z}_{j,d})^{2}}
 \label{eq:distance}
-\]
+$$
 where $(\cdot)^{t}$ is the transpose of a matrix or vector, $D$ is the dimension of the Euclidean latent space, $\mathbf{z}_{i}=(z_{i,1},z_{i,2},\cdots,z_{i,D})^{t}$ and $\mathbf{z}_{j}=(z_{j,1},z_{j,2},\cdots,z_{j,D})^{t}$ are the latent positions of subjects $i$ and $j$, respectively. With the distance, the latent space model can be written as
 
 $$
