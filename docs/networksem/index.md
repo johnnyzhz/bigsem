@@ -23,9 +23,12 @@ In this approach, each subject assumes a position in a Euclidean space. The dist
 with a latent factor space and factor scores. Let $$\mathbf{z}_{i}$$ be a vector of latent positions of subject $$i$$ in the latent space. For subjects $$i$$ and $$j$$, the Euclidean distance between them is:
 
 $$
-d_{ij}(\mathbf{z}_i,\mathbf{z}_{j})=\sqrt{(\mathbf{z}_{i}-\mathbf{z}_{j})^{t}(\mathbf{z}_{i}-{\mathbf{z}_{j})}=\sqrt{\sum_{d=1}^{D}({z}_{i,d}-{z}_{j,d})^{2}}
+\begin{equation}
+d_{ij} (\mathbf{z}_i, \mathbf{z}_{j})=\sqrt{(\mathbf{z}_{i}-\mathbf{z}_{j})^{t}(\mathbf{z}_{i}-{\mathbf{z}_{j})}=\sqrt{\sum_{d=1}^{D}({z}_{i,d}-{z}_{j,d})^{2}}
 \label{eq:distance}
+\end{equation}
 $$
+
 where $$(\cdot)^{t}$$ is the transpose of a matrix or vector, $$D$$ is the dimension of the Euclidean latent space, $$\mathbf{z}_{i}=(z_{i,1},z_{i,2},\cdots,z_{i,D})^{t}$$ and $$\mathbf{z}_{j}=(z_{j,1},z_{j,2},\cdots,z_{j,D})^{t}$$ are the latent positions of subjects $$i$$ and $$j$$, respectively. With the distance, the latent space model can be written as
 
 $$
@@ -36,9 +39,11 @@ m_{ij} & \sim\text{Bernoulli}(p_{ij})\\
 \end{cases}\label{eq:LSM}
 \end{equation}
 $$
+
 where $$\alpha$$ is an intercept, $$\mathbf{h}_{ij}$$ is a vector of covariates and $$\boldsymbol{\beta}$$ contains the coefficients of the covariates. Note that the network is assumed to be unweighted here. In our software, following the tradition in network analysis, the coefficient $$\kappa$$ for $$d_{ij}$$ is fixed as 1 because $$\kappa$$ can be rescaled together with the distance (Hoff et al., 2002). Therefore, the closer of two subjects are in the latent space, the higher the probability is for them to be connected after controlling the covariates in the model.
 
 Here, we adapt and extend the latent space model to have the form shown below:
+
 $$
 \begin{equation}
 \begin{cases}
@@ -47,6 +52,7 @@ g(\mu_{ij}) & =\alpha-d_{ij}(\mathbf{z}_{i},{\mathbf{z}_{j})
 \end{cases}\label{eq:SEM-LSM}
 \end{equation}
 $$
+
 where $$g$$ is a link function. First, we assume the connection between two subjects is solely explained by the latent space. Second, we relax the requirement of the Bernoulli distribution to use any exponential family of distributions. Using this model, we can extract information from a network. The idea is similar to principal component analysis. In our model, the latent positions will be used along with non-network variables in the SEM framework.
 
 ## Network edges as analysis units
