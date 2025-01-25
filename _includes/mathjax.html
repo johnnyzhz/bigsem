@@ -1,6 +1,20 @@
 <!-- Automatically display code inside script tags with type=math/tex using MathJax -->
 
-<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  displayMath: [
+        ['$$', '$$'], // For display math using $$
+        ['\\[', '\\]'] // For display math using \[ \]
+      ],
+  tags: 'all',
+  svg: {
+    fontCache: 'global'
+  }
+};  
+</script> 
 
 <!-- Copied from https://docs.mathjax.org/en/latest/web/components/combined.html -->
 <script type="text/javascript" id="MathJax-script" defer
