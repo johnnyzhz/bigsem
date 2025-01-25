@@ -5,6 +5,7 @@ nav_order: 1
 description: "The collection of manuals for the software developed at the Lab for Big Data Methodology at the University of Notre Dame."
 permalink: /
 ---
+Give it a try.
 
 At the [Lab for Big Data Methodology](https://bigdatalab.nd.edu) at the [University of Notre Dame](https://nd.edu), we have developed many software programs including R packages and online apps. This is a collection of manuals for the software we developed.
 
