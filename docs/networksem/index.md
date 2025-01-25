@@ -24,7 +24,7 @@ with a latent factor space and factor scores. Let $$\mathbf{z}_{i}$$ be a vector
 
 $$
 \begin{equation}
-d_{ij} (\mathbf{z}_i, \mathbf{z}_{j})=\sqrt{(\mathbf{z}_{i}-\mathbf{z}_{j})^{t}(\mathbf{z}_{i}-{\mathbf{z}_{j})}=\sqrt{\sum_{d=1}^{D}({z}_{i,d}-{z}_{j,d})^{2}}
+d_{ij} (\mathbf{z}_i, \mathbf{z}_{j}) = \sqrt{(\mathbf{z}_{i}-\mathbf{z}_{j})^{t}(\mathbf{z}_{i}-\mathbf{z}_{j})} = \sqrt{\sum_{d=1}^{D}({z}_{i,d}-{z}_{j,d})^{2}}
 \label{eq:distance}
 \end{equation}
 $$
@@ -47,9 +47,10 @@ Here, we adapt and extend the latent space model to have the form shown below:
 $$
 \begin{equation}
 \begin{cases}
-E(m_{ij}) & =\mu_{ij}\\
-g(\mu_{ij}) & =\alpha-d_{ij}(\mathbf{z}_{i},{\mathbf{z}_{j})
-\end{cases}\label{eq:SEM-LSM}
+E(m_{ij}) & = \mu_{ij}, \\
+g(\mu_{ij}) & = \alpha - d_{ij}(\mathbf{z}_{i}, \mathbf{z}_{j})
+\end{cases}
+\label{eq:SEM-LSM}
 \end{equation}
 $$
 
