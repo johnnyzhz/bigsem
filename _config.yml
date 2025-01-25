@@ -12,7 +12,7 @@ theme: just-the-docs
 url: https://manuals.psychstat.org
 favicon_ico: "/assets/images/favicon.ico"
 repository: johnnyzhz/johnnyzhz.github.io # for github-metadata
-#math: mathjax
+math: mathjax
 
 permalink: pretty
 
