@@ -27,4 +27,4 @@ The method is based on the Universal Sentence Embedding that embeds a text into 
 
 We have developed online apps for both dictionary-based and AI-based sentiment analysis. We created a video to show how to use the AI-based methods to get the sentiment of a text variables. The obtained sentiment score is saved as a new variable in the data set that can be used in further data analysis.
 
-<video controls="controls" height="400" width="800"><source src="/assets/images/sentiment.mp4"></source></video>
+<video controls="controls" height="400" width="800" controlslist="nodownload" oncontextmenu="return false;"><source src="/assets/images/sentiment.mp4"></source></video>
