@@ -2,7 +2,6 @@
 title: Research Team
 layout: home
 nav_order: 2
-has_children: true
 ---
 
 # Research Team
