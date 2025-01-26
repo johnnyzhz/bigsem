@@ -3,7 +3,7 @@ title: BigSEM Manual
 layout: home
 nav_order: 1
 description: "The manuals of BigSEM developed at the Lab for Big Data Methodology at the University of Notre Dame."
-permalink: /
+has_child: true
 ---
 # Manuals for networksem and TextSEM
 
