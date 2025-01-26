@@ -1,5 +1,5 @@
 ---
-title: Use of the R package TextSEM
+title: Use of the package
 layout: home
 nav_order: 9
 parent: R package TextSEM
