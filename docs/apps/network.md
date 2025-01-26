@@ -2,7 +2,7 @@
 title: Network analysis
 layout: home
 nav_order: 1
-parent: How to use the online app
+parent: Online App
 ---
 
 # Use the online app for network analysis
