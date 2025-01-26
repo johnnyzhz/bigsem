@@ -17,7 +17,7 @@ The model used here is
 
 The video tutorial
 
-<video controls="controls" height="400" width="800"><source src="https://bigsem.psychstat.org/manual/attachments/2"></source></video>
+<video controls="controls" height="400" width="800" controlsList="nodownload" oncontextmenu="return false;"><source src="https://bigsem.psychstat.org/manual/attachments/2"></source></video>
 
 ## Mediation analysis with AI-based sentiment
 
@@ -25,7 +25,7 @@ The model is
 
 ![interface-medai.png](/assets/images/zgw2s4o0vaD1Uv9I-interface-medai.png)
 
-<video controls="controls" height="400" width="800"><source src="/assets/images/med.ai.mp4"></source></video>
+<video controls="controls" height="400" width="800" controlsList="nodownload" oncontextmenu="return false;"><source src="/assets/images/med.ai.mp4"></source></video>
 
 ## Factor analysis
 
@@ -33,4 +33,4 @@ In this example, we form a factor using two text variables - teaching comments a
 
 ![factor.png](/assets/images/k8OGzk6MoQ55CEhI-factor.png)
 
-<video controls="controls" height="400" width="800"><source src="/assets/images/factor.mp4"></source></video>
+<video controls="controls" height="400" width="800" controlsList="nodownload" oncontextmenu="return false;"><source src="/assets/images/factor.mp4"></source></video>
