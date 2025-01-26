@@ -2,6 +2,7 @@
 title: R package networksem
 layout: home
 nav_order: 4
+parent: BigSEM Manual
 has_children: true
 ---
 
