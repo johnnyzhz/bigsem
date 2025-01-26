@@ -2,7 +2,7 @@
 title: Text analysis
 layout: home
 nav_order: 3
-parent: How to use the online app
+parent: Online App
 ---
 
 One can conduct the analysis by drawing a path diagram. To start, click the "Path Diagram" button. The interface below will appear:
