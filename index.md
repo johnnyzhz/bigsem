@@ -6,9 +6,11 @@ description: "BigSEM Website."
 permalink: /
 ---
 
+# Structural Equation Modeling with Network Data and Text Data
+
 BigSEM.org is created to provide information on an IES funded project [R305D210023](https://ies.ed.gov/funding/grantsearch/details.asp?ID=4540) to develop methods and software for network data and text data analysis. This project is also supported by [Notre Dame Global](https://global.nd.edu/) at the University of Notre Dame.
 
-# Project Summary
+## Project Summary
 
 New types of data, such as network data and text data, are increasingly collected in many fields of research, business, and government. For example, to study student behaviors, it is important to understand the context of behaviors because students are not independent entities but are typically connected with one another, which naturally leads to the collection and analysis of network data. For teaching evaluation, narrative comments on different aspects of teaching can provide teachers rich information and valuable feedback over and beyond numerical ratings.
 
