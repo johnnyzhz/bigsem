@@ -8,7 +8,7 @@ nav_order: 5
 
 The edge based analysis can be conducted using the function `sem.net.edge`. The idea behind this method is that the edge values can be the unit of analysis if we transform non-network covariates into pair-based values.
 
-#### Simulated Data Example
+## Simulated Data Example
 
 To begin with, a random simulated dataset can be used to demonstrate the usage of the node-based network statistics approach. The code below generate a simulated network `net` with four non-network covariates `x1 - x4` which loads on two latent variables `lv1, lv2`.
 
@@ -135,7 +135,7 @@ Variances:
 1  0.01705778  -1.495181
 ```
 
-#### Empirical Data Example
+## Empirical Data Example
 
 As an empirical example, we analyze the the attorney cowork and advice networks. In this example, the advice network is predicted by gender and years in practice, and the cowork network is predicted by the advice network, gender, and years in practice all together. In this case, the advice network acts as a mediator, while gender and years in practice exert indirect effect onto the cowork network through the advice network in addition to having direct effects. The model specification is given below.
 
