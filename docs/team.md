@@ -19,10 +19,11 @@ nav_order: 2
 *   Austin Wyman, Graduate Student, Psychology, University of Notre Dame
 *   Zongyu Li, Graduate Student, Psychology, University of Notre Dame
 *   Ruoxuan Li, Graduate Student, Psychology, University of Notre Dame
-*   Anna Krush, Undergraduate Student, ACMS, University of Notre Dame
+
 
 ## Previous Members
 
+*   Anna Krush, Undergraduate Student, ACMS, University of Notre Dame
 *   Aedan Joel, Undergraduate Student, Psychology, University of Notre Dame
 *   Wen Qu, Fudan University
 *   Luke Hubbard, Undergraduate Student, Business and Psychology, University of Notre Dame
