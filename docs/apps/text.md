@@ -7,7 +7,7 @@ parent: Online App
 
 One can conduct the analysis by drawing a path diagram. To start, click the "Path Diagram" button. The interface below will appear:
 
-![image.png](/assets/images/2024-03/p0m0q3vBrRXHSfFt-image.png)
+![image.png](/assets/images/p0m0q3vBrRXHSfFt-image.png)
 
 A path diagram can be drawn through the buttons in the interface. In the example, we have a mediation model where the text is used as a mediator for the association of “hard” (how difficulty the class is) and “rating” (the numerical rating of the class).
 
